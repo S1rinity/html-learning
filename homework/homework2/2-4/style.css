@@ -1,0 +1,51 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    gap: 100px;
+}
+.cube{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: burlywood;
+}
+
+.bitcount-grid-single-first-box {
+                           font-family: "Bitcount Grid Single", system-ui;
+                           font-optical-sizing: auto;
+                           font-weight: normal ;
+                           font-style: normal;
+                           font-variation-settings:
+                                   "slnt" 0,
+                                   "CRSV" 0.5,
+                                   "ELSH" 0,
+                                   "ELXP" 0;
+                       }
+.momo-signature-regular {
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oswald-third-box {
+             font-family: "Oswald", sans-serif;
+             font-optical-sizing: auto;
+             font-weight:normal;
+             font-style: normal;
+         }
+.lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
