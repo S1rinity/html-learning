@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+/* -----------Header-----------------------*/
+.active_link{
+    color: #407c5a;
+}
+header{
+    height: 10vh;
+    background-color: azure;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "orbitron", sans-serif;
+}
+header div{
+    text-align: center;
+}
+header div h3{
+    font-size: 16px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+}
+header nav a{
+    color: gray;
+    font-size: 20px;
+}
+/*-------------Main--------------*/
+.main_home{
+    height: 90vh;
+    background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9yZXN0JTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "orbitron", sans-serif;
+    padding-top: 50px;
+}
+.main_home p{
+    font-size: 20px;
+}
+.main_home h1{
+    font-size: 100px;
+    letter-spacing: 30px;
+}
+.main_home button{
+    width: 170px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    transition: 1s;
+}
+.main_home button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    color: #537161
+}
