@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.month{
+    width: 220px;
+    height: 220px;
+    background-color: darkkhaki;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background: darkolivegreen;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+p {
+    margin: 10px 5px;
+}
+h2{
+    margin: 1px 5px;
+}
+.month:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
