@@ -1,0 +1,15 @@
+video{
+    width: 80%;
+    height: 80%;
+}
+.cool-vid{
+    width: 50vw;
+    height: 50vh;
+    border: 10px darkviolet solid;
+}
+.maps{
+    width: 50vw;
+    height: 50vh;
+    border: 20px blueviolet solid;
+}
+
