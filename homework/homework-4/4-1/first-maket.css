@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper{
+    width: 1728px;
+    height: 244px;
+    background: #d9d9d9;
+}
+.seredina{
+    width: 1728px;
+    height: 629px;
+    background: #a4a4a4;
+}
+.lowest{
+    width: 1728px;
+    height: 244px;
+    background: #d9d9d9;
+}

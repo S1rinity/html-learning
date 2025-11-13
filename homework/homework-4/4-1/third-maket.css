@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.upper{
+    width: 1728px;
+    height: 244px;
+    background: #d9d9d9;
+}
+.lowest{
+    width: 1728px;
+    height: 244px;
+    background: #d9d9d9;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.side{
+    width: 464px;
+    height: 629px;
+    background: #c0bdbd;
+}
+.on-top{
+    width: 802px;
+    height: 292px;
+    background: #827878;
+}
+.sered-2{
+    width: 1728px;
+    height: 629px;
+    background: #b7adad;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
