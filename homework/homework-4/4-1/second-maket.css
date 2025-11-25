@@ -1,26 +1,24 @@
 *{
     margin: 0;
+    padding: 0;
 }
-.upper{
-    width: 1728px;
-    height: 244px;
-    background: #d9d9d9;
+header, footer{
+    width: 100%;
+    height: 22vh;
+    background-color: #d9d9d9;
 }
-.lowest{
-    width: 1728px;
-    height: 244px;
-    background: #d9d9d9;
-}
-.sered{
-    width: 1728px;
-    height: 629px;
-    background: #a4a4a4;
+main{
+    height: 56vh;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
 }
-.side{
-    width: 464px;
-    height: 629px;
-    background: #c0bdbd;
+aside{
+    height: 100%;
+    width: 27vw;
+    background-color: #c0bdbd;
+}
+section{
+    height: 100%;
+    width:46vw;
+    background-color: #a4a4a4;
 }
