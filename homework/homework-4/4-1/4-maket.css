@@ -40,8 +40,12 @@ footer{
     background-color: #644C4C;
 }
 header, footer,aside,section{
+    font-size: 20px;
     color:white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+footer,header{
+    color: black;
 }
