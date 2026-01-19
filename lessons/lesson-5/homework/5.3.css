@@ -1,0 +1,37 @@
+.cool_animation{
+    width: 20vw;
+    height: 20vw;
+    background-color: darkviolet;
+    animation: insane_animation 10s infinite linear alternate;
+}
+@keyframes insane_animation {
+    from{
+        transform: scale(1.5) rotate(90deg);
+    }
+    25%{
+        transform: scale(1.5) rotate(180deg);
+        background-color: violet;
+    }
+    50%{
+        transform: scale(1) rotate(270deg);
+        background-color: blueviolet;
+        border-radius: 50%;
+    }
+    75%{
+        transform: scale(1) rotate(360deg);
+        background-color: mediumvioletred;
+        border-radius: 100%;
+        border: black solid 1px;
+    }
+    to{
+        transform: scale(1.5) rotate(0deg);
+        background-color: darkviolet;
+        border: black solid 40px;
+    }
+}
+body{
+    padding-top:400px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

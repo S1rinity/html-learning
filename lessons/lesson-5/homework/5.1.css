@@ -1,0 +1,25 @@
+.from_box_circle{
+    width:50vw;
+    height:50vh;
+    background-color:black;
+    border-radius:100px;
+    animation: cube_to_circle 10s infinite alternate;
+}
+@keyframes cube_to_circle {
+    from{
+        transform:scale(1);
+    }
+    25%{
+        border-radius: 200px;
+        background-color:red;
+    }
+    50%{
+        border-radius: 50%;
+        background-color:green;
+    }
+    to{
+        border-radius:100%;
+        transform:scale(0.5);
+    }
+
+}

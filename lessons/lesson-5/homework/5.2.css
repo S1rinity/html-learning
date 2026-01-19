@@ -1,0 +1,16 @@
+.circle_obertation{
+    width: 50vw;
+    height: 50vh;
+    background-color: violet;
+    border-radius: 100%;
+    animation: circle_obertation 10s infinite alternate;
+}
+@keyframes circle_obertation {
+    from{
+        transform: scale(1) rotate(90deg);
+    }
+    to{
+        transform: scale(0.5) rotate(360deg);
+        background-color: darkviolet;
+    }
+}
