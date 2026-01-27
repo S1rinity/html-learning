@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Psevdoclass</title>
+    <style>
+        div :first-child {
+            color: red;
+        }
+        /*div p::first-line{*/
+        /*    color: violet;*/
+        /*    font-size: small;*/
+        /*}*/
+        div :last-child {
+            color: crimson;
+        }
+        div p:last-of-type{
+            color: sienna;
+        }
+        /*ul li:nth-child(2n+4){*/
+        /*    color: #5eac49;*/
+        /*}
+        починатт зверху*/
+        ul li:nth-last-child(2n+4){
+            color: #5454D4;
+        }
+        /* починати з низу*/
+        /* n-кожен 2 4n-кожен другий четвертий ; + число з якого елемента починати; odd,even-парні не парні  */
+    </style>
+</head>
+<body>
+<div>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <p>Lorem ipsum dolor.</p>
+    <span>Lorem.</span>
+    <span>Lorem.</span>
+    <span>Lorem.</span>
+    <span>Lorem.</span>
+</div>
+<ul>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+    <li>Item 1</li>
+</ul>
+</body>
+</html>

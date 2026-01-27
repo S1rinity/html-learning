@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul li::after{
+            content: "?????";
+            color: red;
+        }/* псевдо елемент не можна виділити на сторінці ставить його в кігці елемента*/
+        ul li{
+            list-style: none;
+        }
+        ul{
+            padding-inline-start: 0;
+        }
+        ul li::before {
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+            background-image: url("data:image/png;base64,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 ");
+            background-size: cover;
+        }
+     </style>
+</head>
+<body>
+<ul>
+    <li>Lorem ipsum dolor sit amet.</li>
+    <li>Aspernatur ipsam laboriosam nemo numquam.</li>
+    <li>Ad mollitia nam nesciunt veniam.</li>
+    <li>Aperiam earum eius possimus sapiente.</li>
+    <li>Aut facere id magni ratione.</li>
+    <li>Eligendi exercitationem pariatur quibusdam sequi.</li>
+    <li>Deserunt enim molestias officiis reiciendis.</li>
+    <li>Culpa deserunt eius tenetur veniam.</li>
+    <li>Aliquid autem commodi est laboriosam.</li>
+    <li>Beatae illo nostrum sint veritatis.</li>
+</ul>
+</body>
+</html>
