@@ -1,0 +1,19 @@
+.first-task ul li:nth-child(even){
+    color:pink;
+}
+ul{
+    list-style-type: decimal;
+}
+.second-task ul li:nth-child(odd){
+    font-size: 22px;
+}
+.third-task ul li:nth-child(2n+4)::after{
+    content: "!";
+}
+.fourth-task ul li:last-child{
+    color: purple;
+}
+.fifth-task ul li:first-letter{
+    font-size: 30px;
+    color:red;
+}
