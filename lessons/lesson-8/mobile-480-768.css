@@ -1,0 +1,8 @@
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .item-3{
+        background-color: black;
+    }
+    .item-1{
+        background-color: #80D2C4;
+    }
+}

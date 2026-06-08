@@ -1,0 +1,19 @@
+.item{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+}
+.item-1{
+    background-color: #5454D4;
+}
+.item-2{
+    background-color: #8c0202;
+}
+.item-3{
+    background-color: #5eac49;
+}
+@media screen and (max-width:480px){
+    .item-2{
+        background-color: #106FDF;
+    }
+}
