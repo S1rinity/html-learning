@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 30px;
+}
+.btn-primary{
+    background-color: purple;
+}
+.card-text{
+    text-align: center;
+    color: red;
+}
+.grid-container{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+.carousel{
+    height: 45vh;
+}
+.carousel img{
+    height: 50vh;
+
+}
